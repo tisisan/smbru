@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สัมมาชีพเคมี ค้าส่ง - แหล่งรวมสินค้าเคมีภัณฑ์สำหรับผู้ประกอบการ บุรีรัมย์</title>
+    <!-- Google Fonts: Kanit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Kanit', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            blue: '#0ea5e9', // ฟ้า U Smile
+                            dark: '#0f172a', // น้ำเงินเข้ม
+                            yellow: '#fbbf24', // เหลืองจากโลโก้
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-pattern {
+            background-color: #0f172a;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .fade-in { animation: fadeIn 1s ease-in-out; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M2GKPPJH');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <!-- โลโก้บริษัท -->
+                    <img src="โลโก้.png" alt="โลโก้ U Smile / สัมมาชีพเคมี" class="h-16 w-auto mr-3 object-contain" onerror="this.src='https://placehold.co/100x100/fbbf24/0ea5e9?text=U+SMILE'">
+                    <div class="hidden sm:block">
+                        <h1 class="text-xl font-bold text-brand-dark tracking-tight">สัมมาชีพเคมี ค้าส่ง</h1>
+                        <p class="text-sm text-brand-blue font-medium">ศูนย์รวมเคมีภัณฑ์ บุรีรัมย์</p>
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#products" class="text-gray-600 hover:text-brand-blue transition font-medium">สินค้าของเรา</a>
+                    <a href="#target" class="text-gray-600 hover:text-brand-blue transition font-medium">กลุ่มลูกค้า</a>
+                    <a href="#about" class="text-gray-600 hover:text-brand-blue transition font-medium">ทำไมต้องเรา</a>
+                </div>
+                <div>
+                    <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full font-bold shadow-lg transition flex items-center gap-2">
+                        <i class="fab fa-line text-xl"></i> แอดไลน์สั่งซื้อ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-pattern text-white pt-20 pb-24 border-b-4 border-brand-yellow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center fade-in">
+            <span class="bg-brand-yellow text-brand-dark px-4 py-1 rounded-full text-sm font-bold mb-6 inline-flex items-center shadow-md">
+                <i class="fas fa-certificate mr-2"></i> ให้บริการในจังหวัดบุรีรัมย์และพื้นที่ใกล้เคียง
+            </span>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+                ร้านรวมสินค้า <span class="text-brand-yellow">ที่ผู้ประกอบการต้องมี</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-10 max-w-3xl">
+                สัมมาชีพเคมี ค้าส่ง - เราคือผู้เชี่ยวชาญด้านเคมีภัณฑ์ <br class="hidden md:block">
+                พร้อมเป็นพันธมิตรเคียงข้างธุรกิจคุณ ด้วยประสบการณ์ยาวนานกว่า 24 ปี
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#contact" class="bg-brand-blue hover:bg-blue-500 text-white text-lg font-bold py-3 px-8 rounded-full shadow-lg transition transform hover:-translate-y-1 flex items-center justify-center">
+                    <i class="fas fa-shopping-cart mr-2"></i> ขอใบเสนอราคา
+                </a>
+                <a href="tel:0897216447" class="bg-white hover:bg-gray-100 text-brand-dark text-lg font-bold py-3 px-8 rounded-full shadow-lg transition transform hover:-translate-y-1 flex items-center justify-center">
+                    <i class="fas fa-phone-alt mr-2 text-brand-blue"></i> โทรปรึกษาเรา
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Trust Stats -->
+    <section id="about" class="bg-white py-12 shadow-sm relative z-10 -mt-8 mx-4 sm:mx-auto max-w-5xl rounded-2xl">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center px-6">
+            <div>
+                <i class="fas fa-history text-4xl text-brand-blue mb-3"></i>
+                <h3 class="text-3xl font-bold text-brand-dark">24+ ปี</h3>
+                <p class="text-gray-600 font-medium">ประสบการณ์ค้าส่งเคมีภัณฑ์</p>
+            </div>
+            <div>
+                <i class="fas fa-boxes text-4xl text-brand-blue mb-3"></i>
+                <h3 class="text-3xl font-bold text-brand-dark">ครบวงจร</h3>
+                <p class="text-gray-600 font-medium">สินค้ามากกว่า 6 หมวดหมู่หลัก</p>
+            </div>
+            <div>
+                <i class="fas fa-shield-alt text-4xl text-brand-blue mb-3"></i>
+                <h3 class="text-3xl font-bold text-brand-dark">ได้มาตรฐาน</h3>
+                <p class="text-gray-600 font-medium">ระบบคลังเก็บสารเคมีปลอดภัย 100%</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section id="products" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">ประเภทสินค้าของเรา</h2>
+                <div class="w-24 h-1 bg-brand-yellow mx-auto rounded-full mb-6"></div>
+                <p class="text-lg text-gray-600">ตอบโจทย์ทุกอุตสาหกรรม คุ้มค่า ราคาขายส่ง</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-blue-100 text-brand-blue rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">1. เคมีทำความสะอาด</h3>
+                    <p class="text-gray-600 mb-4">หัวเชื้อน้ำยา ล้างจาน ซักผ้า คาร์แคร์ ครบครันสำหรับงานทำความสะอาดอุตสาหกรรม</p>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 border border-gray-100 group relative overflow-hidden">
+                    <div class="w-16 h-16 bg-yellow-100 text-brand-yellow rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition">
+                        <i class="far fa-smile-beam"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">2. สินค้าแบรนด์ U SMILE</h3>
+                    <p class="text-gray-600 mb-4">สินค้าคุณภาพภายใต้แบรนด์ U SMILE รับประกันความพึงพอใจระดับมืออาชีพ</p>
+                    <img src="โลโก้.png" alt="U Smile Logo" class="absolute -right-6 -bottom-6 w-32 opacity-10 grayscale" onerror="this.style.display='none'">
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-purple-100 text-purple-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">3. ชุดทำน้ำยาด้วยตัวเอง</h3>
+                    <p class="text-gray-600 mb-4">ชุดสารตั้งต้นพร้อมส่วนผสม ให้คุณผสมใช้งานเองเพื่อประหยัดต้นทุนทางธุรกิจ</p>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-pink-100 text-pink-500 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">4. น้ำหอม</h3>
+                    <p class="text-gray-600 mb-4">หัวเชื้อน้ำหอมหลากกลิ่น สำหรับอุตสาหกรรม การผลิต และงานบริการ</p>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-green-100 text-green-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">5. อุปกรณ์นวดสปาและสมุนไพร</h3>
+                    <p class="text-gray-600 mb-4">สินค้าเพื่อสุขภาพและความงาม สมุนไพรอบแห้ง และอุปกรณ์สำหรับธุรกิจสปา</p>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 border border-gray-100 group">
+                    <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-brand-dark mb-2">6. เคมีเกษตรและระบบน้ำ</h3>
+                    <p class="text-gray-600 mb-4">เคมีภัณฑ์สระว่ายน้ำ, กากน้ำตาล, คลอรีน และเคมีสำหรับการเกษตรและงานช่าง</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Audience -->
+    <section id="target" class="py-20 bg-brand-dark text-white relative overflow-hidden">
+        <!-- Background Decoration -->
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 rounded-full bg-brand-blue opacity-10 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-brand-yellow opacity-10 blur-3xl"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">ร้านเราเหมาะกับใคร ?</h2>
+                    <div class="w-24 h-1 bg-brand-yellow rounded-full mb-8"></div>
+                    <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                        ด้วยประสบการณ์การเป็นผู้ค้าส่งเคมีภัณฑ์ เราเข้าใจความต้องการของผู้ประกอบการ 
+                        และเตรียมสินค้าไว้รองรับธุรกิจทุกระดับ
+                    </p>
+                    <ul class="space-y-6">
+                        <li class="flex items-center bg-white/10 p-4 rounded-xl backdrop-blur-sm border border-white/5">
+                            <div class="bg-brand-yellow text-brand-dark w-12 h-12 rounded-full flex items-center justify-center text-xl mr-4 shrink-0">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold">ร้านอาหาร และ โรงแรม</h4>
+                                <p class="text-gray-400 text-sm">สินค้าทำความสะอาด, น้ำหอม, สปา</p>
+                            </div>
+                        </li>
+                        <li class="flex items-center bg-white/10 p-4 rounded-xl backdrop-blur-sm border border-white/5">
+                            <div class="bg-brand-blue text-white w-12 h-12 rounded-full flex items-center justify-center text-xl mr-4 shrink-0">
+                                <i class="fas fa-industry"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold">โรงงาน และ โรงเลี้ยงสัตว์</h4>
+                                <p class="text-gray-400 text-sm">เคมีอุตสาหกรรม, น้ำยาฆ่าเชื้อ, กากน้ำตาล</p>
+                            </div>
+                        </li>
+                        <li class="flex items-center bg-white/10 p-4 rounded-xl backdrop-blur-sm border border-white/5">
+                            <div class="bg-green-500 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl mr-4 shrink-0">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold">ส่วนราชการ และ โรงเรียน</h4>
+                                <p class="text-gray-400 text-sm">สินค้าจำเป็นปริมาณมาก ราคาประหยัด</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Safety standard info from PDF -->
+                <div class="md:w-1/2 mt-10 md:mt-0">
+                    <div class="bg-white rounded-2xl p-8 text-brand-dark shadow-2xl relative">
+                        <div class="absolute -top-6 -right-6 bg-brand-yellow w-20 h-20 rounded-full flex items-center justify-center text-3xl shadow-lg border-4 border-white">
+                            <i class="fas fa-check-circle text-brand-dark"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4 flex items-center">
+                            <i class="fas fa-warehouse text-brand-blue mr-3"></i> โกดังได้มาตรฐาน ปลอดภัย
+                        </h3>
+                        <p class="text-gray-600 mb-4">
+                            มั่นใจในคุณภาพสินค้าเคมีของเรา ด้วยระบบจัดเก็บที่เคร่งครัดเรื่องความปลอดภัย
+                        </p>
+                        <ul class="text-sm text-gray-700 space-y-3">
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> แยกพื้นที่เก็บกรด-ด่าง ชัดเจน ไม่ปะปนกัน</li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> แยกจัดเก็บคลอรีนในโซนเฉพาะ เพื่อป้องกันปฏิกิริยา</li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> จัดเก็บสารไวไฟ และออกซิไดซ์ห่างกัน ป้องกันความเสี่ยง</li>
+                            <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> มีอุปกรณ์และเครื่องดับเพลิงพร้อมทุกจุด</li>
+                        </ul>
+                        <div class="mt-6 pt-6 border-t border-gray-100 text-center">
+                            <p class="font-bold text-brand-blue">ความปลอดภัยของคุณ คือมาตรฐานของเรา</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-blue-50 rounded-3xl overflow-hidden shadow-lg flex flex-col md:flex-row">
+                
+                <!-- Contact Info -->
+                <div class="md:w-1/2 p-10 lg:p-16 flex flex-col justify-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-brand-dark mb-4">ติดต่อสัมมาชีพเคมี</h2>
+                    <p class="text-gray-600 mb-8">สัมมาชีพ (สำนักงานใหญ่) ยินดีให้คำปรึกษาและบริการจัดส่งสินค้า</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-brand-blue shadow-sm shrink-0">
+                                <i class="fas fa-phone-alt text-xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <p class="text-sm text-gray-500 font-medium">เบอร์โทรศัพท์</p>
+                                <a href="tel:0897216447" class="text-xl font-bold text-brand-dark hover:text-brand-blue transition">089-721-6447</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-brand-blue shadow-sm shrink-0">
+                                <i class="fab fa-line text-2xl text-green-500"></i>
+                            </div>
+                            <div class="ml-4">
+                                <p class="text-sm text-gray-500 font-medium">LINE ID (สั่งซื้อ-สอบถาม)</p>
+                                <p class="text-xl font-bold text-brand-dark">@200lsdtq <span class="text-sm font-normal text-gray-500">(มี @ นำหน้า)</span></p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center text-brand-blue shadow-sm shrink-0">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div class="ml-4">
+                                <p class="text-sm text-gray-500 font-medium">อีเมล</p>
+                                <a href="mailto:sm.brugroup1@gmail.com" class="text-lg font-bold text-brand-dark hover:text-brand-blue transition break-all">sm.brugroup1@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-10">
+                        <a href="https://line.me/R/ti/p/@200lsdtq" target="_blank" class="w-full block text-center bg-green-500 hover:bg-green-600 text-white font-bold text-lg py-4 rounded-xl shadow-lg transition transform hover:-translate-y-1">
+                            <i class="fab fa-line text-2xl align-middle mr-2"></i> คลิกเพื่อแอดไลน์ทันที
+                        </a>
+                    </div>
+                </div>
+
+                <!-- QR Code Image -->
+                <div class="md:w-1/2 bg-[#f4ebd0] p-10 flex flex-col items-center justify-center border-t md:border-t-0 md:border-l border-gray-200">
+                    <div class="text-center mb-6">
+                        <img src="โลโก้.png" alt="สัมมาชีพ บุรีรัมย์" class="h-20 mx-auto mb-2 object-contain" onerror="this.style.display='none'">
+                        <h3 class="text-2xl font-bold text-brand-dark mb-1">สแกนเพื่อติดต่อเรา</h3>
+                        <p class="text-gray-600">รับโปรโมชั่นพิเศษและปรึกษาฟรี</p>
+                    </div>
+                    
+                    <div class="bg-white p-4 rounded-2xl shadow-xl">
+                        <!-- Using the provided QR code image -->
+                        <img src="S__79896580.jpg" alt="LINE QR Code @200lsdtq" class="w-64 h-auto rounded-xl" onerror="this.src='https://placehold.co/400x400/22c55e/ffffff?text=QR+Code+LINE'">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-white py-8 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-4 md:mb-0 flex items-center">
+                <img src="โลโก้.png" alt="U Smile" class="h-8 w-auto mr-3 grayscale opacity-70" onerror="this.style.display='none'">
+                <p class="text-gray-400 text-sm">&copy; 2024 สัมมาชีพเคมี ค้าส่ง (สำนักงานใหญ่) สงวนลิขสิทธิ์</p>
+            </div>
+            <div class="flex space-x-4">
+                <p class="text-gray-400 text-sm">ผู้ค้าส่งเคมีภัณฑ์คุณภาพ จังหวัดบุรีรัมย์</p>
+            </div>
+        </div>
+    </footer>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M2GKPPJH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</body>
+</html>
